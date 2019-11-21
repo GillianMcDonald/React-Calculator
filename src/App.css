@@ -2,21 +2,56 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.display {
+  display: inline-block;
+  padding: 10px 210px;
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 5vh;
+  margin: 50px 0 0 50px;
+  font-size: 5vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.clearBtn {
+  display: inline-block;
+  padding: 10px 35px;
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 5vh;
+  margin: 50px 0 0 50px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #09d3ac;
+.resetBtn {
+  display: inline-block;
+  padding: 10px 35px;
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 5vh;
+  margin: 50px 0 0 50px;
+  cursor: pointer;
+}
+
+.divideBtn, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .minusBtn, .plusBtn, .equalsBtn{
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 5vh;
+  margin: 50px 0 0 50px;
+  cursor: pointer;
+}
+
+.btn0 {
+  display: inline-block;
+  padding: 10px 150px;
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 5vh;
+  margin: 50px 0 0 50px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
 }
